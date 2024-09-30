@@ -3,8 +3,11 @@ import './Header.css'; // Importar o arquivo CSS para estilizar o Header
 
 const Header: React.FC = () => {
   return (
+    <div className='header-container'>
     <header className="header">
-      <h1>Library On Hands</h1>
+      <div className="header-logo">
+        <a href='/'><img src="../../public/assets/logo-raven.svg" alt="Logo" /></a>
+      </div>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -14,6 +17,7 @@ const Header: React.FC = () => {
         </ul>
       </nav>
     </header>
+    </div>
   );
 };
 

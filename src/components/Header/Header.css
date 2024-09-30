@@ -1,7 +1,13 @@
+.header-container {
+  height: auto;
+  background-color: #282c34;
+  color: white;
+  display: block;
+  align-items: center;
+  }
 .header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
+    max-width: 1200px;
+    margin: auto;    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,4 +37,8 @@
   .header nav ul li a:hover {
     text-decoration: underline;
   }
-  
+  .header-logo{
+    width: 200px;
+    height: auto;
+    filter: invert(100%);
+  }

@@ -1,0 +1,15 @@
+  html, body {
+  height: 100%;
+}
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  
+}
+.main-content {
+  flex: 1; /* Faz com que o main ocupe todo o espaço restante */
+}
